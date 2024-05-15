@@ -1,6 +1,6 @@
 package List;
 
-public class List {
+public class Introducao {
     /*
         list:
         - É uma coleção ordenada que permite a inclusão de elementos duplicados.
