@@ -30,7 +30,6 @@ public class ListaTarefa {
     public int obterNumeroTotalTarefas(){
         return  tarefaList.size(); // quantidade de elementos que tem na lista
     }
-
     // obter descricoes de tarefas:
     public void obterDescricaoTarefas(){
         System.out.println(tarefaList);
