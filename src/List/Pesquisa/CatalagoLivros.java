@@ -44,10 +44,25 @@ public class CatalagoLivros {
             for(Livro l : livroList){
                 if(l.getTitulo().equalsIgnoreCase(titulo)){
                      livroPorTitulo = l;
-                    brake;
+                    break;
                 }
             }
         }
         return livroPorTitulo;
     }
+
+    public static void main(String[] args) {
+        CatalagoLivros catalagoLivros = new CatalagoLivros();
+
+        catalagoLivros.adicionarLivro("Livro 1" , "autor 1", 2020);
+        catalagoLivros.adicionarLivro("Livro 2" , "autor 1", 2024);
+        catalagoLivros.adicionarLivro("Livro 3" , "autor 3", 2023);
+        catalagoLivros.adicionarLivro("Livro 4" , "autor 4", 2022);
+        catalagoLivros.adicionarLivro("Livro 5" , "autor 5", 2021);
+
+        System.out.println(catalagoLivros.pesquisaPorAutor("autor 1"));
+        System.out.println(catalagoLivros.pesquisaPorIntervalo(2021, 2022));
+        System.out.println(catalagoLivros.pesquisarPorTitulo("livro 1"));
+    }
+
 }
