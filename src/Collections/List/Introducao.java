@@ -1,4 +1,4 @@
-package List;
+package Collections.List;
 
 public class Introducao {
     /*

@@ -1,6 +1,6 @@
-package List.Ordenação;
+package Collections.List.Ordenação;
 
-public class Pessoa implements comparable<Pessoa> {
+public class Pessoa  {
     private String nome;
     private int idade;
     private double altura;
@@ -32,10 +32,7 @@ public class Pessoa implements comparable<Pessoa> {
                 '}';
     }
 
-    @Override
-    public int compareTo(Pessoa o){
-        return Integer.compare(getIdade());
-    }
+
 }
 
 

@@ -1,6 +1,4 @@
-package List.Pesquisa;
-
-import java.util.Date;
+package Collections.List.Pesquisa;
 
 public class Livro {
     private String titulo;
