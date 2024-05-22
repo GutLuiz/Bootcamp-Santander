@@ -15,11 +15,4 @@ public class OrdenacaoPessoa {
         pessoaList.add(new Pessoa(nome,idade,altura));
     }
 
-    public List<Pessoa> ordernarPorIdade(){
-        List<Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList);
-        Collections.sort(pessoasPorIdade);
-        return pessoasPorIdade;
-    }
-
-    public
 }
